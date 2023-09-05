@@ -1,0 +1,434 @@
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+.navbar-brand {
+  margin-top: 20px;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: 600;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  color: #000;
+  background-color: #fff;
+  padding: 5px 5px;
+  line-height: 22px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  font-size: 15px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a:hover {
+  color: #4692F1;
+  background: #F6F6F6;
+  font-weight: 600;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+.btn-login {
+  border-width: 2px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+header {
+  padding: 336px 0px 390px;
+  margin-top: -111px;
+  background-image: url("../images/header@2x.jpg");
+  background-size: cover;
+}
+
+header h1, header p {
+  color: #fff;
+}
+
+header h1 {
+  font-size: 56px;
+  font-weight: 600;
+}
+
+header p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+header .btn-get-started {
+  background-color: #fff;
+  color: #000;
+  border-radius: 35px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -ms-border-radius: 35px;
+  -o-border-radius: 35px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+header .btn-get-started:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.section-stats {
+  margin-top: -90px;
+}
+.section-stats h2, .section-stats p {
+  color: #fff;
+  padding-left: 56px;
+}
+.section-stats h2 {
+  font-size: 41px;
+  font-weight: 600;
+  margin-bottom: -4px;
+}
+.section-stats p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.section-popular .section-popular-heading {
+  margin-top: 116px;
+}
+.section-popular .section-popular-heading h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.section-popular .section-popular-heading p {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.section-popular-content .section-popular-travel .card-travel {
+  min-height: 448px;
+  color: #fff;
+  background-color: #ddd;
+  padding: 20px;
+  background-size: cover;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.section-popular-content .section-popular-travel .travel-country {
+  font-size: 17px;
+}
+
+.section-popular-content .section-popular-travel .travel-location {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.section-popular-content .section-popular-travel .travel-rating {
+  font-size: 12px;
+  margin-top: -84px;
+}
+
+.section-popular-content .section-popular-travel .travel-rating .fa-solid.fa-star {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.section-popular-content .section-popular-travel .travel-rating .fa-solid.fa-star.active {
+  color: #FFDD00;
+}
+
+.section-popular-content .section-popular-travel .travel-button .btn-travel-details {
+  background-color: #fff;
+  color: #000;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 8px 96px 8px 96px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.section-popular-content .section-popular-travel .travel-button .btn-travel-details:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.section-networks {
+  background-color: #fff;
+  padding-top: 104px;
+  padding-bottom: 84px;
+}
+
+.section-networks h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.section-networks p {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.section-networks .ana-logo {
+  margin-top: 16px;
+  margin-inline-end: 64px;
+  background-image: url(/images/ana.png);
+  background-size: 90%;
+  background-position: 0;
+  background-repeat: no-repeat;
+  width: 240px;
+  height: 96px;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.section-networks .ana-logo:hover {
+  background-image: url(/images/ana-colored.png);
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.section-networks .disney-logo {
+  margin-top: 16px;
+  background-image: url(/images/disney.png);
+  background-size: 90%;
+  background-position: 0;
+  background-repeat: no-repeat;
+  width: 240px;
+  height: 96px;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.section-networks .disney-logo:hover {
+  background-image: url(/images/disney-colored.png);
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.section-networks .shangri-la-logo {
+  margin-top: 16px;
+  margin-inline: 24px;
+  background-image: url(/images/shangri-la.png);
+  background-size: 90%;
+  background-position: 0;
+  background-repeat: no-repeat;
+  width: 240px;
+  height: 96px;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.section-networks .shangri-la-logo:hover {
+  background-image: url(/images/shangri-la-colored.png);
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.section-networks .visa-logo {
+  margin-top: 24px;
+  background-image: url(/images/visa.png);
+  background-size: 90%;
+  background-position: 0;
+  background-repeat: no-repeat;
+  width: 240px;
+  height: 96px;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.section-networks .visa-logo:hover {
+  background-image: url(/images/visa-colored.png);
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.section-testimonial-heading {
+  background: #4692F1;
+  padding-top: 48px;
+  min-height: 868px;
+}
+
+.section-testimonial-heading h2, .section-testimonial-heading p {
+  color: #fff;
+}
+
+.section-testimonial-heading h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.section-testimonial-heading p {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.section-testimonial-content {
+  margin-top: -628px;
+}
+
+.section-testimonial-content .card-testimonial {
+  padding: 64px 84px 34px;
+  padding-bottom: 20px;
+  border-radius: 35px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -ms-border-radius: 35px;
+  -o-border-radius: 35px;
+  border-style: none;
+  margin-bottom: 84px;
+}
+
+.section-testimonial-content img {
+  width: 148px;
+}
+
+.section-testimonial-content h3 {
+  font-size: 32px;
+}
+
+.section-testimonial-content .testimonial {
+  font-size: 19px;
+  min-height: 115px;
+}
+
+.section-testimonial-content .trip-to {
+  font-size: 16px;
+  padding-top: 5px;
+}
+
+.section-testimonial-content hr {
+  border-width: 2px;
+  border-radius: 20px;
+  color: #a6a6a6;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.section-testimonial-content .get-started {
+  margin-top: 76px;
+  margin-bottom: 128px;
+}
+
+.section-testimonial-content .btn-get-started {
+  background-color: #0D6EFD;
+  color: #fff;
+  border-radius: 35px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -ms-border-radius: 35px;
+  -o-border-radius: 35px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.section-testimonial-content .btn-get-started:hover {
+  background-color: #6ba6ff;
+  color: #ffffff;
+}
+
+.section-footer {
+  background: #292B3C;
+  min-height: 500px;
+}
+
+.section-footer img {
+  max-height: 60px;
+}
+
+.section-footer p {
+  color: #fff;
+}
+
+.section-footer h5 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.section-footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.section-footer i {
+  margin-top: 32px;
+  margin-right: 32px;
+  font-size: 24px;
+}
+
+.section-footer .footer-features {
+  padding-left: 124px;
+}
+
+.section-footer .footer-account {
+  padding-left: 16px;
+}
+
+.section-footer .footer-connected {
+  padding-left: 52px;
+}
+
+.section-copyright {
+  font-size: 14px;
+  font-weight: 500;
+}
