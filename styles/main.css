@@ -369,6 +369,17 @@ header .btn-get-started:hover {
   margin-bottom: 128px;
 }
 
+.section-testimonial-content .get-started .btn-need-help {
+    border-width: 2px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
 .section-testimonial-content .btn-get-started {
   background-color: #0D6EFD;
   color: #fff;
