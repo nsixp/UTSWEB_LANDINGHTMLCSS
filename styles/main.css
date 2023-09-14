@@ -20,51 +20,6 @@ body {
   font-weight: 600;
 }
 
-.dropdown {
-  position: relative;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  color: #000;
-  background-color: #fff;
-  padding: 5px 5px;
-  line-height: 22px;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-  font-size: 15px;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dropdown-content a:hover {
-  color: #4692F1;
-  background: #F6F6F6;
-  font-weight: 600;
-  border-radius: 7px;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  -ms-border-radius: 7px;
-  -o-border-radius: 7px;
-}
-
-.btn-login {
-  border-width: 2px;
-  border-radius: 25px;
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  -ms-border-radius: 25px;
-  -o-border-radius: 25px;
-  font-size: 16px;
-  font-weight: 500;
-}
-
 header {
   padding: 336px 0px 390px;
   margin-top: -111px;
@@ -101,23 +56,6 @@ header .btn-get-started {
 header .btn-get-started:hover {
   background-color: #000;
   color: #fff;
-}
-
-.section-stats {
-  margin-top: -90px;
-}
-.section-stats h2, .section-stats p {
-  color: #fff;
-  padding-left: 56px;
-}
-.section-stats h2 {
-  font-size: 41px;
-  font-weight: 600;
-  margin-bottom: -4px;
-}
-.section-stats p {
-  font-size: 18px;
-  font-weight: 400;
 }
 
 .section-popular .section-popular-heading {
